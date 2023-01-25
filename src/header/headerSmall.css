@@ -15,11 +15,16 @@ body{
     background-color:var(--black);
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 22px 5px 22px 5px;
 }
-.main-header h1,p{
+header h1{
     color: var(--white);
-    font-size: 19px;
+    font-size:24px;
+    font-weight: 300;
+}
+header p{
+    color: var(--white);
+    font-size: 24px;
     font-weight: 300;
 }
 .header-title{
@@ -32,7 +37,7 @@ body{
     font-weight: 700;
 }
 .header-title .or-sign{
-    margin:0px 10px 0px 10px;
+    margin:0px 3px 0px 3px;
     font-size: 30px;
 }
 .header-title img{

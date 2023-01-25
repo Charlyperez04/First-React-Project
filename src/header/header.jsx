@@ -16,6 +16,7 @@ export function SmallScreenList() {
  return (
 <>
   <link rel="stylesheet" href="./src/header/headerSmall.css" />
+  <link rel="stylesheet" href="./src/main/mainSmall.css" />
   <section className="main-header" id="main-header">
     <aside className="header-title">
       <img src="./src/assets/bx-ghost.svg" alt="logo" />
